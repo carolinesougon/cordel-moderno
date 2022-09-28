@@ -70,6 +70,7 @@ section{
 section p{
     font-family: var(--font03);
     font-size: 1.3em;
+    padding-bottom: 2em;
 }
 
 section.normal{
@@ -79,19 +80,29 @@ section.normal{
 
 section.imagem{
     background-color: grey;
-    color:white
+    color:white;
+    box-shadow: inset 1px 1px 3px 1px rgba(0, 0, 0, 0.548);
+    
 }
 
 section.imagem > p{
     display:inline-block;
     background-color: rgba(0, 0, 0, 0.575);
     border-radius: 20px;
-    border-color: black;
+    border-color: rgb(255, 255, 255);
     border-style: solid;
     padding: 15px;
-
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.548) ;   
 }
 
+section#img01{
+    background:url(imagens/flore1920.jpg) center left no-repeat fixed;
+    background-size: cover;
+}
+section#img02{
+    background: url(imagens/carta1920.jpg) center left no-repeat fixed;;
+    background-size: cover;
+}
 /*-- RODAPÉ --*/
 
 footer{
